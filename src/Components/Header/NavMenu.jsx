@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const NavMenu = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleMouseEnter = () => {
     setIsOpen(true);
@@ -39,7 +39,7 @@ const NavMenu = () => {
           onMouseLeave={handleMouseLeave}
         >
           <button
-            className={`tracking-wide text-sm xl:text-base duration-300 relative hover:text-shadow-custom hover:!text-primary py-2flex items-center`}
+            className={`tracking-wide text-sm xl:text-base duration-300 relative hover:text-shadow-custom hover:!text-primary py-2flex items-center ${isOpen && 'text-primary text-shadow-custom'}`}
           >
             Services{" "}
             <span>
