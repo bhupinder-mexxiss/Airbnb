@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const NavMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const handleMouseEnter = () => {
     setIsOpen(true);
@@ -33,53 +33,49 @@ const NavMenu = () => {
             Home
           </NavLink>
         </li>
-        <li className="relative group">
+        <li
+          className="relative group"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <button
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            className={({ isActive }) =>
-              `tracking-wide text-sm xl:text-base duration-300 relative hover:text-shadow-custom hover:text-primary py-2  ${
-                isActive
-                  ? "text-primary text-shadow-custom after:absolute after:left-1/2 after:-translate-y-1/5 after:-bottom-[3px] after:min-w-1.5 after:w-1.5 after:h-1.5 after:rounded-full after:bg-primary"
-                  : " text-text1"
-              } flex items-center`
-            }
+            className={`tracking-wide text-sm xl:text-base duration-300 relative hover:text-shadow-custom hover:!text-primary py-2flex items-center`}
           >
             Services{" "}
             <span>
               <KeyboardArrowDownOutlined />
             </span>
-            <div
-              className={`absolute top-[90%] left-0 w-max z-10 text-left pt-4 ${
-                isOpen ? "opacity-1 visible" : "opacity-0 invisible"
-              }`}
-            >
-              <div className="py-3 rounded-xl rounded-tl-none bg-white shadow-[0px_2px_15px_0px_#0000001A]">
-                <ul>
-                  <li>
-                    <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
-                      Cleaning & Maintenance
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
-                      Interior Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
-                      Listing Management
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
-                      Management Support
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </button>
+          <div
+            className={`absolute top-[90%] left-0 w-max z-10 text-left pt-4 ${
+              isOpen ? "opacity-1 visible" : "opacity-0 invisible"
+            }`}
+          >
+            <div className="py-3 rounded-xl rounded-tl-none bg-white shadow-[0px_2px_15px_0px_#0000001A]">
+              <ul>
+                <li>
+                  <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
+                    Cleaning & Maintenance
+                  </Link>
+                </li>
+                <li>
+                  <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
+                    Interior Design
+                  </Link>
+                </li>
+                <li>
+                  <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
+                    Listing Management
+                  </Link>
+                </li>
+                <li>
+                  <Link className="px-4 py-2 w-full inline-block hover:bg-gray-50">
+                    Management Support
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
         <li className="group">
           <NavLink
