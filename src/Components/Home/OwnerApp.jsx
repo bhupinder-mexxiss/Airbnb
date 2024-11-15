@@ -22,19 +22,19 @@ const OwnerApp = () => {
             </div>
             <img src={img6} className="ml-auto w-32 sm:w-40 md:w-56 absolute bottom-0 right-0 lg:static" />
           </div>
-          <div className="lg:w-[65%] 2xl:w-[60%] mt-10">
-            <div className="grid grid-cols-2 gap-6 sm:gap-10 xl:gap-x-20 gap-y-10 md:gap-y-16">
+          <div className="lg:w-[65%] 2xl:w-[62%] mt-10 lg:mt-0">
+            <div className="grid grid-cols-2 gap-6 sm:gap-10 xl:gap-x-20 gap-y-10">
               <div>
                 <div className="min-w-14 w-14 h-14 sm:min-w-20 sm:w-20 sm:h-20 rounded-full border border-border1 p-1 relative">
-                  <span className="flex items-center justify-center bg-[#E0DEF7] rounded-full w-full h-full">
+                  <span className="flex items-center justify-center bg-[#f7eddd] rounded-full w-full h-full">
                     <img src={icon24} className="w-6 sm:w-9" />
                   </span>
                 </div>
                 <div className="mt-3 sm:mt-5">
-                  <h6 className="text-xl sm:text-2xl md:text-3xl font-medium text-text1">
+                  <h6 className="text-xl sm:text-2xl font-medium text-text1">
                     View your Live Calendar
                   </h6>
-                  <p className="md:text-lg text-[#4D5461] mt-3 md:mt-4">
+                  <p className=" text-[#4D5461] mt-3">
                     See occupancy, average nightly net rate, projected earnings
                     and more
                   </p>
@@ -42,45 +42,45 @@ const OwnerApp = () => {
               </div>
               <div>
                 <div className="min-w-14 w-14 h-14 sm:min-w-20 sm:w-20 sm:h-20 rounded-full border border-border1 p-1 relative">
-                  <span className="flex items-center justify-center bg-[#E0DEF7] rounded-full w-full h-full">
+                  <span className="flex items-center justify-center bg-[#f7eddd] rounded-full w-full h-full">
                     <img src={icon24} className="w-6 sm:w-9" />
                   </span>
                 </div>
                 <div className="mt-3 sm:mt-5">
-                  <h6 className="text-xl sm:text-2xl md:text-3xl font-medium text-text1">
+                  <h6 className="text-xl sm:text-2xl font-medium text-text1">
                     View your Monthly Statements
                   </h6>
-                  <p className="md:text-lg text-[#4D5461] mt-3 md:mt-4">
+                  <p className=" text-[#4D5461] mt-3">
                     Access your statements on the go, and see your payouts
                   </p>
                 </div>
               </div>
               <div>
                 <div className="min-w-14 w-14 h-14 sm:min-w-20 sm:w-20 sm:h-20 rounded-full border border-border1 p-1 relative">
-                  <span className="flex items-center justify-center bg-[#E0DEF7] rounded-full w-full h-full">
+                  <span className="flex items-center justify-center bg-[#f7eddd] rounded-full w-full h-full">
                     <img src={icon24} className="w-6 sm:w-9" />
                   </span>
                 </div>
                 <div className="mt-3 sm:mt-5">
-                  <h6 className="text-xl sm:text-2xl md:text-3xl font-medium text-text1">
+                  <h6 className="text-xl sm:text-2xl font-medium text-text1">
                     Contact Support
                   </h6>
-                  <p className="md:text-lg text-[#4D5461] mt-3 md:mt-4">
+                  <p className=" text-[#4D5461] mt-3">
                     Contact the Client Support team directly from the app
                   </p>
                 </div>
               </div>
               <div>
                 <div className="min-w-14 w-14 h-14 sm:min-w-20 sm:w-20 sm:h-20 rounded-full border border-border1 p-1 relative">
-                  <span className="flex items-center justify-center bg-[#E0DEF7] rounded-full w-full h-full">
+                  <span className="flex items-center justify-center bg-[#f7eddd] rounded-full w-full h-full">
                     <img src={icon24} className="w-6 sm:w-9" />
                   </span>
                 </div>
                 <div className="mt-3 sm:mt-5">
-                  <h6 className="text-xl sm:text-2xl md:text-3xl font-medium text-text1">
+                  <h6 className="text-xl sm:text-2xl font-medium text-text1">
                     Block Owner Stays
                   </h6>
-                  <p className="md:text-lg text-[#4D5461] mt-3 md:mt-4">
+                  <p className=" text-[#4D5461] mt-3">
                     Use the app to block personal stays at your property, any
                     time
                   </p>

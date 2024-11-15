@@ -34,7 +34,7 @@ const ReviewSec = () => {
     <div
       className="py-16 bg-cover bg-center "
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 9, 41, 0.85), rgba(0, 9, 41, 0.85)), url(${img7})`,
+        backgroundImage: `linear-gradient(rgba(31, 22, 7, 0.85), rgba(31, 22, 7, 0.85)), url(${img7})`,
       }}
     >
       <div className="container mx-auto">
@@ -50,13 +50,13 @@ const ReviewSec = () => {
           <div className="md:px-20 relative">
             <div>
               <button
-                className="border border-white w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center text-white bg-text1 hover:bg-primary hover:border-primary duration-300 absolute z-30 left-0 bottom-0 md:top-1/2 md:-translate-y-1/2"
+                className="border border-white w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center text-white bg-[#1F1607] hover:bg-primary hover:border-primary duration-300 absolute z-30 left-0 bottom-0 md:top-1/2 md:-translate-y-1/2"
                 onClick={previous}
               >
                 <KeyboardArrowLeftOutlined className=" md:!text-3xl" />
               </button>
               <button
-                className="border border-white w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center text-white bg-text1 hover:bg-primary hover:border-primary duration-300 absolute z-30 right-0 bottom-0 md:top-1/2 md:-translate-y-1/2"
+                className="border border-white w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center text-white bg-[#1F1607] hover:bg-primary hover:border-primary duration-300 absolute z-30 right-0 bottom-0 md:top-1/2 md:-translate-y-1/2"
                 onClick={next}
               >
                 <KeyboardArrowRightOutlined className=" md:!text-3xl" />

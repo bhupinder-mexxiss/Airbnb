@@ -14,12 +14,12 @@ body {
 }
 
 .bgGradient {
-  background: linear-gradient(180deg, #E0DEF7 0%, rgba(224, 222, 247, 0) 100%);
+  background: linear-gradient(180deg, #ffeccb 0%, rgba(255, 236, 203, 0) 100%);
 }
 
 .btn1 {
   font-family: "Poppins", sans-serif;
-  background: #7065F0;
+  background: #DCC397;
   height: 46px;
   border-radius: 32px;
   text-transform: uppercase;
@@ -27,13 +27,13 @@ body {
   color: white;
   font-weight: 500;
   padding: 0 26px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .btn2 {
   font-family: "Poppins", sans-serif;
   border: 2px solid #000929;
-  background-color: #FFFFFFA6;
+  background-color: #ffffffa6;
   height: 46px;
   border-radius: 32px;
   text-transform: uppercase;
@@ -41,16 +41,16 @@ body {
   color: #000929;
   font-weight: 500;
   padding: 0 26px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .btn1:hover {
-  background: #5B4DCE;
+  background: #bca478;
 }
 
 .btn2:hover {
-  color: #5B4DCE;
-  border-color: #5B4DCE;
+  color: #DCC397;
+  border-color: #DCC397;
 }
 
 .bannerSlider .sliderInner div {

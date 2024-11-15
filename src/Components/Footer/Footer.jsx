@@ -14,7 +14,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-text1">
+    <div className="bg-[#170F00]">
       <div className="py-10 border-b border-white">
         <div className="container mx-auto">
           <div className="flex sm:items-center justify-center flex-col sm:flex-row gap-3 sm:gap-6">

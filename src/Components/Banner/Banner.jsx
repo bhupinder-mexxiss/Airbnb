@@ -138,7 +138,7 @@ const Banner = () => {
                 <div className="flex gap-14">
                   <div>
                     <div className="w-16 h-16 rounded-full border-2 border-primary lg:border-border1 p-1 relative">
-                      <span className="flex items-center justify-center bg-[#c9c9e2] lg:bg-[#c9c9e2] rounded-full w-full h-full">
+                      <span className="flex items-center justify-center bg-[#FBD28B] rounded-full w-full h-full">
                         <img src={icon6} className="w-8" />
                       </span>
                       <span className="bg-primary rounded-lg absolute -right-0.5 -bottom-0.5 w-6 h-6 flex items-center justify-center">
@@ -154,7 +154,7 @@ const Banner = () => {
                   </div>
                   <div>
                     <div className="w-16 h-16 rounded-full border-2 border-primary lg:border-border1 p-1 relative">
-                      <span className="flex items-center justify-center bg-[#c9c9e2] lg:bg-[#E0DEF7] rounded-full w-full h-full">
+                      <span className="flex items-center justify-center bg-[#FBD28B] rounded-full w-full h-full">
                         <img src={icon7} className="w-8" />
                       </span>
                       <span className="bg-primary rounded-lg absolute -right-0.5 -bottom-0.5 w-6 h-6 flex items-center justify-center">
