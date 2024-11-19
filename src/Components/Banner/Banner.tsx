@@ -53,7 +53,7 @@ const Banner = () => {
           </div>
           <div className="container mx-auto relative z-10">
             <div className="pt-32 sm:pt-28">
-              <h1 className="text-3xl xs:text-4xl sm:*:text-5xl md:text-[54px] text-text1 font-bold sm:leading-[60px]">
+              <h1 className=" text-3xl xs:text-4xl sm:*:text-5xl md:text-[54px] text-text1 font-bold sm:leading-[60px]">
                 Airbnb <br />
                 Management <span className="text-primary">Dubai</span>
               </h1>
