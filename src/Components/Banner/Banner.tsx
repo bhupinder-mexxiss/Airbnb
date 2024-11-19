@@ -1,5 +1,5 @@
 import { KeyboardArrowDownOutlined } from "@mui/icons-material";
-import React from "react";
+
 import icon6 from "../../assets/icons/icon6.png";
 import icon7 from "../../assets/icons/icon7.png";
 import icon8 from "../../assets/icons/icon8.png";
@@ -7,8 +7,8 @@ import icon9 from "../../assets/icons/icon9.png";
 import img1 from "../../assets/images/img1.png";
 import img2 from "../../assets/images/img2.png";
 import img3 from "../../assets/images/img3.png";
-import img4 from "../../assets/images/img4.png";
-import img5 from "../../assets/images/img5.png";
+// import img4 from "../../assets/images/img4.png";
+// import img5 from "../../assets/images/img5.png";
 import Slider from "react-slick";
 import { Select } from "@mantine/core";
 
